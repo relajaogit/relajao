@@ -25,19 +25,6 @@ const translations = {
         subtitle:'Discover our most popular accommodations',
         viewAll: 'View All Properties'
       },
-
-     why: {
-        title: 'Why Choose Relajao',
-        subtitle:'Experience the difference with our premium accommodations',
-        sectio1: 'Prime Locations',
-        textsection1:'Our properties are situated in the most desirable locations, offering convenience and easy access to local attractions.',
-        sectio2:'Exceptional Comfort',
-        textsection2:'From luxury bedding to stylish furnishings, every detail is designed with your comfort and relaxation in mind.',
-        sectio3: 'Personalized Service',
-        textsection3: 'We pride ourselves on providing attentive service tailored to your specific needs to ensure a memorable stay.'
-
-      },
-      
       destinations: {
         title: 'Popular Destinations',
         medellin: 'Medellín',
@@ -45,7 +32,6 @@ const translations = {
         santaMarta: 'Santa Marta',
         guatape: 'Guatapé'
       }
-    
     },
     properties: {
       title: 'Our Properties',
@@ -182,17 +168,6 @@ const translations = {
         subtitle:'Descubre nuestros alojamientos más populares',
         viewAll: 'Ver Todas las Propiedades'
       },
-        why: {
-        title: 'Por que elegir Relajao',
-        subtitle:'Experimente la diferencia con nuestros alojamientos premium',
-        sectio1: 'Ubicaciones privilegiadas',
-        textsection1:'Nuestras propiedades están situadas en las ubicaciones más deseables, ofreciendo comodidad y fácil acceso a las atracciones locales..',
-        sectio2:'Comodidad excepcional',
-        textsection2:'Desde ropa de cama de lujo hasta muebles elegantes, cada detalle está diseñado pensando en su comodidad y relajación.',
-        sectio3: 'Servicio personalizado',
-        textsection3: 'Nos enorgullecemos de brindar un servicio atento adaptado a sus necesidades específicas para garantizar una estadía memorable.'
-
-      },
       destinations: {
         title: 'Destinos Populares',
         medellin: 'Medellín',
@@ -200,7 +175,6 @@ const translations = {
         santaMarta: 'Santa Marta',
         guatape: 'Guatapé'
       }
-      
     },
     properties: {
       title: 'Nuestras Propiedades',
@@ -283,16 +257,16 @@ const translations = {
         address: {
           title: 'Dirección',
           line1: 'Relajao',
-          line2: 'Calle 1 #7-14 Oficina 301',
-          line3: 'Popayan, Colombia'
+          line2: 'Calle 10 #43E-31',
+          line3: 'Medellín, Colombia'
         },
         phone: {
           title: 'Teléfono',
-          number: '+57 3216365241'
+          number: '+57 312 345 6789'
         },
         email: {
           title: 'Email',
-          address: 'aptosrelajao@gmail.com'
+          address: 'info@relajao.co'
         },
         hours: {
           title: 'Horario',

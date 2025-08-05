@@ -122,12 +122,6 @@ function PropertyDetail() {
               ))}
             </div>
           </div>
-          
-          {/* Map */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">{t.propertyDetail.location}</h2>
-            <PropertyMap property={property} />
-          </div>
         </div>
         
         {/* Right column: Booking/Price card */}

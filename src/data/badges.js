@@ -1,0 +1,17 @@
+export const BADGES = {
+  guest_favorite: { icon: '⭐', label: { es: 'Muy elegido por los huéspedes', en: 'Guest favorite' } },
+  park_view: { icon: '🌿', label: { es: 'Vista al parque', en: 'Park view' } },
+  elevator_access: { icon: '🏢', label: { es: 'Con ascensor', en: 'Elevator access' } },
+  double_bed_sofa_bed: { icon: '🛏️', label: { es: 'Cama doble y sofá cama', en: 'Double bed & sofa bed' } },
+  nearby_parking: { icon: '🚗', label: { es: 'Parqueadero cercano', en: 'Nearby parking' } },
+  fast_stable_wifi: { icon: '📶', label: { es: 'WiFi rápido y estable', en: 'Fast & stable WiFi' } },
+  modern_bath_hot_water: { icon: '🛁', label: { es: 'Baño moderno con agua caliente', en: 'Modern bathroom with hot water' } },
+  spotless_spaces: { icon: '🧼', label: { es: 'Espacios impecables', en: 'Spotless spaces' } },
+  perfect_remote_work: { icon: '☕', label: { es: 'Perfecto para teletrabajo', en: 'Perfect for remote work' } },
+  quiet_relaxed: { icon: '🏡', label: { es: 'Ambiente tranquilo y relajado', en: 'Quiet & relaxed atmosphere' } },
+  reception_7_5: { icon: '🛎️', label: { es: 'Recepción 7 am – 5 pm', en: 'Reception 7 am – 5 pm' } },
+  strategic_location: { icon: '📍', label: { es: 'Ubicación estratégica', en: 'Strategic location' } },
+  cozy_living_sofa: { icon: '🛋️', label: { es: 'Sala cómoda con sofá', en: 'Cozy living room with sofa' } },
+  natural_light_all_day: { icon: '🌅', label: { es: 'Luz natural todo el día', en: 'Natural light all day' } },
+  secure_building_24_7: { icon: '🔐', label: { es: 'Edificio seguro 24 h', en: 'Secure building 24/7' } },
+};

@@ -62,8 +62,8 @@ function Privacy() {
           </h2>
           <p>
             {es
-              ? 'Si tienes preguntas sobre esta política, escríbenos a info@relajao.com o contáctanos por WhatsApp desde la página de contacto.'
-              : 'If you have questions about this policy, email us at info@relajao.com or reach us on WhatsApp from the contact page.'}
+              ? 'Si tienes preguntas sobre esta política, escríbenos a aptosrelajao@gmail.com o contáctanos por WhatsApp desde la página de contacto.'
+              : 'If you have questions about this policy, email us at aptosrelajao@gmail.com or reach us on WhatsApp from the contact page.'}
           </p>
         </div>
       </section>

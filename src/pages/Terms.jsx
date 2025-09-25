@@ -62,8 +62,8 @@ function Terms() {
           </h2>
           <p>
             {es
-              ? 'Para cualquier consulta sobre estos términos, contáctanos en info@relajao.com o vía WhatsApp desde la página de contacto.'
-              : 'For any questions about these terms, contact us at info@relajao.com or via WhatsApp from the contact page.'}
+              ? 'Para cualquier consulta sobre estos términos, contáctanos en aptosrelajao@gmail.com o vía WhatsApp desde la página de contacto.'
+              : 'For any questions about these terms, contact us at aptosrelajao@gmail.com or via WhatsApp from the contact page.'}
           </p>
         </div>
       </section>

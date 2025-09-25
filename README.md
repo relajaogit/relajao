@@ -36,7 +36,7 @@ To enable Google Maps across the Properties and Property Detail pages, follow th
    ```
    For this environment, the provided key has been set:
    ```
-   VITE_GOOGLE_MAPS_API_KEY=AIzaSyA9zbSUeZIMv6N78_wBZCy1dHbucYoKvQ4
+  
    ```
 
 2. Ensure the following dependencies are installed (already included in package.json):

@@ -159,11 +159,11 @@ const properties = [
     maxGuests: 3,
     bedrooms: 1,
     bathrooms: 1,
-    coverImage: "/images/propiedades/murano-702/cover.png",
+    coverImage: "/images/propiedades/murano-702/cover.jpg",
     images: [
-      "/images/propiedades/murano-702/1.png",
-      "/images/propiedades/murano-702/2.png",
-      "/images/propiedades/murano-702/3.png",
+      "/images/propiedades/murano-702/1.jpg",
+      "/images/propiedades/murano-702/2.jpg",
+      "/images/propiedades/murano-702/3.jpg",
       "/images/propiedades/murano-702/4.jpg"
     ]
   },
@@ -190,13 +190,13 @@ const properties = [
     maxGuests: 4,
     bedrooms:2,
     bathrooms: 1,
-    coverImage: "/images/propiedades/Puerto-208c/cover.jpeg",
+    coverImage: "/images/propiedades/Puerto-208c/cover.jpg",
     images: [
-      "/images/propiedades/Puerto-208c/1.jpeg",
-      "/images/propiedades/Puerto-208c/2.jpeg",
-      "/images/propiedades/Puerto-208c/3.jpeg",
-      "/images/propiedades/Puerto-208c/4.jpeg",
-      "/images/propiedades/Puerto-208c/5.jpeg"
+      "/images/propiedades/Puerto-208c/1.jpg",
+      "/images/propiedades/Puerto-208c/2.jpg",
+      "/images/propiedades/Puerto-208c/3.jpg",
+      "/images/propiedades/Puerto-208c/4.jpg",
+      "/images/propiedades/Puerto-208c/5.jpg"
     ]
   },
   {

@@ -12,9 +12,9 @@ function Home() {
 
   // Standardized hero and about images under public/images/home (use absolute paths without "public")
   const heroUrl = '/images/home/hero.jpg';
-  const abou1 = '/images/home/santa.jpg';
-  const abou2 = '/images/home/popa.jpg';
-  const abou3 = '/images/home/carta.jpg';
+  const abou1 = '/images/home/lonova.jpg';
+  const abou2 = '/images/home/miravalle.jpg';
+  const abou3 = '/images/home/living.webp';
 
   useEffect(() => {
     // Set page title

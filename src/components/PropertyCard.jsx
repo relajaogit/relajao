@@ -44,9 +44,10 @@ function PropertyCard({ property }) {
   const labelGuests = t.propertyDetail?.guests || 'guests';
   const labelBeds = t.propertyDetail?.beds || 'beds';
   const labelBedrooms = t.propertyDetail?.bedrooms || 'bedrooms';
+  const labelbathrooms = t.propertyDetail?.bathrooms || 'bathrooms';
 
   const displayedBeds = typeof beds === 'number' ? beds : (typeof bedrooms === 'number' ? bedrooms : null);
-
+   const displayedBaths = typeof bathrooms === 'number' ? bathrooms : (typeof bathrooms === 'number' ? bathrooms : null);
   // Property type mapping and inference
   const typeInput = (propertyType || type || '').toString().trim().toLowerCase();
   const typeMap = {
@@ -107,6 +108,7 @@ function PropertyCard({ property }) {
 
           {/* Key info row: guests, beds (or bedrooms), type */}
           <div className="mt-2 mb-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-gray-700">
+               {/* Guest */}
             {typeof maxGuests === 'number' && (
               <div className="flex items-center" aria-label={`${maxGuests} ${labelGuests}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -115,6 +117,7 @@ function PropertyCard({ property }) {
                 <span>{maxGuests} {labelGuests}</span>
               </div>
             )}
+             {/* beds*/}
             {displayedBeds != null ? (
               <div className="flex items-center" aria-label={`${displayedBeds} ${labelBeds}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 text-gray-500" viewBox="0 0 24 24" fill="currentColor">
@@ -128,6 +131,35 @@ function PropertyCard({ property }) {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                 </svg>
                 <span>{bedrooms} {labelBedrooms}</span>
+              </div>
+            ))}
+            {/* baths*/}
+            {displayedBaths != null ? (
+              <div className="flex items-center" aria-label={`${displayedBaths} ${labelbathrooms}`}>
+               <svg xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 64 64" 
+     fill="none" 
+     stroke="currentColor" 
+     strokeWidth="3" 
+     strokeLinecap="round" 
+     strokeLinejoin="round" 
+     className="h-6 w-6 text-gray-500">
+  
+  <rect x="10" y="8" width="20" height="18" rx="2" />
+  
+  <path d="M20 26h24c0 10-6 18-14 18s-14-8-14-18z" />
+ 
+  <path d="M26 44v6c0 2 2 4 6 4s6-2 6-4v-6" />
+</svg>
+
+                <span>{displayedBaths} {labelbathrooms}</span>
+              </div>
+            ) : (typeof bathrooms === 'number' && (
+              <div className="flex items-center" aria-label={`${bathrooms} ${labelbathrooms}`}>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                <span>{bathrooms} {labelbathrooms}</span>
               </div>
             ))}
             {typeDisplay && (

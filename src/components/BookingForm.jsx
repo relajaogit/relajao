@@ -105,7 +105,7 @@ function BookingForm({ propertyName, propertyPrice }) {
       const encodedMessage = encodeURIComponent(message);
       
       // Open WhatsApp with the message
-      window.open(`https://wa.me/+573123456789?text=${encodedMessage}`, '_blank');
+      window.open(`https://wa.me/+573216365241?text=${encodedMessage}`, '_blank');
     }
   };
   

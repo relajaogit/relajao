@@ -36,7 +36,7 @@ To enable Google Maps across the Properties and Property Detail pages, follow th
    ```
    For this environment, the provided key has been set:
    ```
-  
+   
    ```
 
 2. Ensure the following dependencies are installed (already included in package.json):

@@ -1,6 +1,6 @@
 function WhatsAppButton({ propertyName, fullWidth = false, message, label = 'Contact via WhatsApp', phone }) {
   // Default WhatsApp number (can be overridden via `phone` prop)
-  const whatsappNumber = phone || "+573216365241";
+  const whatsappNumber = "+573216365241";
 
   // Compute message
   let msg = message;

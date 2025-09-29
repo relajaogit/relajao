@@ -206,8 +206,8 @@ const properties = [
     title: { es: "La-Villa", en: "La-Villa" },
     propertyType:'house',
     description: {
-      es: "Disfruta de una estadía cómoda y tranquila en este moderno apartaestudio a pocos minutos del centro histórico de Popayán. Ideal para viajeros de negocios, parejas o estadías cortas, este espacio está completamente equipado para brindarte una experiencia agradable y sin preocupaciones. El edificio cuenta con recepción 24 horas. Su ubicación céntrica te permite acceder fácilmente a restaurantes, supermercados, bancos y los principales atractivos turísticos de la ciudad.",
-      en: "Enjoy a comfortable and quiet stay in this modern studio apartment just minutes from Popayán’s historic center. Ideal for business travelers, couples, or short stays, this space is fully equipped to provide you with a pleasant and worry-free experience. The building has 24-hour reception. Its central location allows you to easily access restaurants, supermarkets, banks, and the city’s main tourist attractions."
+      es: "Vive la experiencia única de hospedarte frente al mar Caribe en La Villa, una casa diseñada para la tranquilidad y el disfrute de la naturaleza. Su estilo fresco y acogedor, junto con amplios espacios sociales y habitaciones cómodas, la convierten en el lugar perfecto para compartir con familia o amigos.Aquí podrás despertar con la brisa marina, relajarte en hamacas, contemplar atardeceres inolvidables y caminar directamente a la playa desde tu puerta. Sin piscina, pero con el océano como protagonista, La Villa ofrece la esencia más auténtica de Santa Verónica: descanso, conexión y libertad frente al mar.",
+      en: "Experience the magic of staying right on the Caribbean shore at The Villa, a beachfront home designed for relaxation and connection with nature. With a fresh and cozy style, spacious living areas, and comfortable bedrooms, it’s the perfect getaway for families and friends.Wake up to the sea breeze, unwind in hammocks, watch unforgettable sunsets, and step right onto the beach from your door. Without a pool but with the ocean as the star, The Villa captures the true essence of Santa Verónica—peace, connection, and freedom by the sea."
     },
     pricePerNightCOP: 800000,
     city: "Santa Veronica",    
@@ -217,11 +217,11 @@ const properties = [
       "Wifi","Hot water","Kitchen","Washer","TV","Bed linens","Blender","Body soap","Dedicated workspace","Refrigerator","Freezer"
     ],
     featuredAmenities: [],
-    badges: ["secure_building_24_7","strategic_location","fast_stable_wifi","quiet_relaxed"],
+    badges: ["guest_favorite","strategic_location","fast_stable_wifi","quiet_relaxed"],
     isFeatured: false,
-    maxGuests: 4,
-    bedrooms:2,
-    bathrooms: 1,
+    maxGuests: 16,
+    bedrooms:10,
+    bathrooms: 3.5,
     coverImage: "/images/propiedades/La-Villa/cover.jpg",
     images: [
       "/images/propiedades/La-Villa/1.jpg",
@@ -232,14 +232,14 @@ const properties = [
     ]
   },
   {
-    id: 8,
+    id:0,
     slug: "Atrapa-Suenos",
     name: "Atrapa Suenos",
     title: { es: "Atrapa Suenos", en: "Atrapa Suenos" },
     propertyType:'house',
     description: {
-      es: "Disfruta de una estadía cómoda y tranquila en este moderno apartaestudio a pocos minutos del centro histórico de Popayán. Ideal para viajeros de negocios, parejas o estadías cortas, este espacio está completamente equipado para brindarte una experiencia agradable y sin preocupaciones. El edificio cuenta con recepción 24 horas. Su ubicación céntrica te permite acceder fácilmente a restaurantes, supermercados, bancos y los principales atractivos turísticos de la ciudad.",
-      en: "Enjoy a comfortable and quiet stay in this modern studio apartment just minutes from Popayán’s historic center. Ideal for business travelers, couples, or short stays, this space is fully equipped to provide you with a pleasant and worry-free experience. The building has 24-hour reception. Its central location allows you to easily access restaurants, supermarkets, banks, and the city’s main tourist attractions."
+      es: "Despierta con el sonido de las olas y la brisa del Caribe en Atrapa Sueños, una casa única frente al mar en Santa Verónica. Diseñada para el descanso y la conexión con la naturaleza, este espacio combina comodidad, estilo y una ubicación inmejorable a solo unos pasos de la playa. Con amplias áreas sociales, habitaciones frescas y acogedoras, y una vista panorámica del océano, es el lugar perfecto para escapadas románticas, viajes en familia o días de desconexión total. Aquí podrás relajarte en hamacas, disfrutar de espectaculares atardeceres y vivir la auténtica magia de la costa atlántica colombiana.Atrapa Sueños no es solo un lugar para hospedarse, es un destino para recargar energías, crear recuerdos y dejarte llevar por la tranquilidad del mar.",
+      en: "Wake up to the sound of the waves and the Caribbean breeze at Atrapa Sueños, a unique beachfront home in Santa Verónica. Designed for relaxation and connection with nature, this space combines comfort, style, and an unbeatable location just steps from the ocean.With spacious social areas, fresh and cozy rooms, and panoramic ocean views, it’s the perfect spot for romantic escapes, family trips, or simply unwinding by the sea. Swing in a hammock, enjoy breathtaking sunsets, and experience the true magic of Colombia’s Atlantic coast. Atrapa Sueños is not just a place to stay—it’s a destination to recharge, create lasting memories, and let yourself be carried away by the serenity of the sea."
     },
     pricePerNightCOP: 800000,
     city: "Santa Veronica",    
@@ -249,11 +249,11 @@ const properties = [
       "Wifi","Hot water","Kitchen","Washer","TV","Bed linens","Blender","Body soap","Dedicated workspace","Refrigerator","Freezer"
     ],
     featuredAmenities: [],
-    badges: ["secure_building_24_7","strategic_location","fast_stable_wifi","quiet_relaxed"],
+    badges: ["guest_favorite","strategic_location","quiet_relaxed"],
     isFeatured: false,
-    maxGuests: 4,
-    bedrooms:2,
-    bathrooms: 1,
+    maxGuests: 12,
+    bedrooms:10,
+    bathrooms: 3.5,
     coverImage: "/images/propiedades/Atrapa-Suenos/cover.avif",
     images: [
       "/images/propiedades/Atrapa-Suenos/1.avif",

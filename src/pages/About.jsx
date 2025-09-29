@@ -47,13 +47,10 @@ function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
         <div className="rounded-lg overflow-hidden shadow-xl h-96">
           <img
-            src="/assets/images/about-story.jpg"
+            src="/images/home/Relajo.jpg"
             alt={t.about?.images?.storyAlt || 'Relajao founding story'}
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              e.target.onerror = null;
-              e.target.src = "https://images.unsplash.com/photo-1565073624420-9b9f612d4b7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80";
-            }}
+            
+            
           />
         </div>
         <div>

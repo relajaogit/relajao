@@ -49,9 +49,7 @@ function About() {
           <img
             src="/images/home/Relajo.jpg"
             alt={t.about?.images?.storyAlt || 'Relajao founding story'}
-            
-            
-          />
+            />
         </div>
         <div>
           <h2 className="text-3xl font-bold text-gray-900 mb-6">{t.about?.story?.title}</h2>

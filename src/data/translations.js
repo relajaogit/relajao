@@ -32,7 +32,8 @@ const translations = {
       "Dedicated workspace": "Dedicated workspace",
       "Refrigerator": "Refrigerator",
       "Freezer": "Freezer",
-      "Free street parking": "Free street parking"
+      "Free street parking": "Free street parking",
+       "Reception": "Reception"
     },
     
     // Home Page
@@ -267,7 +268,8 @@ const translations = {
       "Dedicated workspace": "Espacio de trabajo dedicado",
       "Refrigerator": "Refrigerador",
       "Freezer": "Congelador",
-      "Free street parking": "Parqueo gratuito en la calle"
+      "Free street parking": "Parqueo gratuito en la calle",
+      "Reception": "Recepción"
     },
     
     // Home Page

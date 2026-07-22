@@ -68,7 +68,7 @@ export default function WelcomeBook() {
           </div>
           <div className="text-center">
             <p className="text-xs text-slate-400 font-medium">📤 Check-Out</p>
-            <p className="text-sm font-bold mt-0.5">{apto.checkOut || '11:00 AM'}</p>
+            <p className="text-sm font-bold mt-0.5">{apto.checkOut || '12:00 M'}</p>
           </div>
         </div>
       </div>
@@ -85,10 +85,10 @@ export default function WelcomeBook() {
             </div>
             <div className="border-t border-slate-200/60 pt-2.5 flex justify-between items-center">
               <div>
-                <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">{t.wifiLabelPass}</p>
+                <p className="text-[10px] text-slate-400 font-bold  tracking-wider">{t.wifiLabelPass}</p>
                 <p className="text-base font-mono font-bold text-slate-800">{apto.wifiPass}</p>
               </div>
-              <button onClick={() => copiarAlPortapapeles(apto.wifiPass)} className="bg-indigo-50 hover:bg-indigo-100 text-indigo-600 px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 transition-colors">
+              <button onClick={() => copiarAlPortapapeles(t.wifiLabelPass)} className="bg-indigo-50 hover:bg-indigo-100 text-indigo-600 px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 transition-colors">
                 📋 {idioma === 'es' ? 'Copiar' : 'Copy'}
               </button>
             </div>
@@ -178,10 +178,10 @@ export default function WelcomeBook() {
             </div>
 
             <div className="py-5">
-              <p className="text-sm text-slate-600 leading-relaxed bg-slate-50 p-4 rounded-xl border border-slate-100">
-                {selectedAmenity.instructions}
-              </p>
-            </div>
+  <p className="text-sm text-slate-600 leading-relaxed bg-slate-50 p-4 rounded-xl border border-slate-100 whitespace-pre-line">
+    {selectedAmenity.instructions}
+  </p>
+</div>
 
             <button
               onClick={() => setSelectedAmenity(null)}

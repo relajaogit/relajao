@@ -95,13 +95,17 @@ const properties = [
     maxGuests: 3,
     bedrooms: 1,
     bathrooms: 1,
-    coverImage: "/images/propiedades/living-201/cover.png",
+    coverImage: "/images/propiedades/living-201/1.webp",
     images: [
-      "/images/propiedades/living-201/1.png",
-      "/images/propiedades/living-201/2.png",
-      "/images/propiedades/living-201/3.png",
-      "/images/propiedades/living-201/4.jpg",
-      "/images/propiedades/living-201/5.webp"
+      "/images/propiedades/living-201/1.webp",
+      "/images/propiedades/living-201/2.webp",
+      "/images/propiedades/living-201/3.webp",
+      "/images/propiedades/living-201/4.webp",
+      "/images/propiedades/living-201/5.webp",
+      "/images/propiedades/living-201/6.webp",
+      "/images/propiedades/living-201/7.webp",
+      "/images/propiedades/living-201/8.webp",
+      "/images/propiedades/living-201/9.webp"
     ]
   },
   {
